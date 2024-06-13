@@ -1,0 +1,586 @@
+[
+    {
+        "firstName": "Umar",
+        "lastName": "Al-Qadri",
+        "politicalParty": "Independent",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Barry",
+        "lastName": "Andrews",
+        "politicalParty": "Fianna Fáil",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Lynn",
+        "lastName": "Boylan",
+        "politicalParty": "Sinn Féin",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Niall",
+        "lastName": "Boylan",
+        "politicalParty": "Independent Ireland",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Rebecca",
+        "lastName": "Barrett",
+        "politicalParty": "The National Party",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Robin",
+        "lastName": "Cafolla",
+        "politicalParty": "An Rabharta Glas-Green Left",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Ciarán",
+        "lastName": "Cuffe",
+        "politicalParty": "Green Party",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Aisling",
+        "lastName": "Considine",
+        "politicalParty": "Aontú",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Clare",
+        "lastName": "Daly",
+        "politicalParty": "Independent",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Regine",
+        "lastName": "Doherty",
+        "politicalParty": "Fine Gael",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Daithí",
+        "lastName": "Doolan",
+        "politicalParty": "Sinn Féin",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Philip",
+        "lastName": "Dwyer",
+        "politicalParty": "Ireland First",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Sinead",
+        "lastName": "Gibney",
+        "politicalParty": "Social Democrats",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Andy",
+        "lastName": "Heasman",
+        "politicalParty": "The Irish People",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Conor",
+        "lastName": "Murphy",
+        "politicalParty": "Independent",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Eamon",
+        "lastName": "Murphy",
+        "politicalParty": "Independent",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Diarmaid",
+        "lastName": "O'Conorain",
+        "politicalParty": "Irish Freedom Party",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Aodhán",
+        "lastName": "O'Riordáin",
+        "politicalParty": "Labour Party",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Brendan",
+        "lastName": "Ogle",
+        "politicalParty": "Independent",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Stephen",
+        "lastName": "O'Rourke",
+        "politicalParty": "Independent",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Patrick",
+        "lastName": "Quinlan",
+        "politicalParty": "National Party",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Bríd",
+        "lastName": "Smith",
+        "politicalParty": "People Before Profit",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Malachy",
+        "lastName": "Steenson",
+        "politicalParty": "Independent",
+        "regionRep": "Dublin",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Niall",
+        "lastName": "Blaney",
+        "politicalParty": "Fianna Fáil",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Justin",
+        "lastName": "Barrett",
+        "politicalParty": "The National Party",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Anthony",
+        "lastName": "Cahill",
+        "politicalParty": "Irish People",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Nina",
+        "lastName": "Carberry",
+        "politicalParty": "Fine Gael",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Peter",
+        "lastName": "Casey",
+        "politicalParty": "Independent",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Lisa",
+        "lastName": "Chambers",
+        "politicalParty": "Fianna Fáil",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Barry",
+        "lastName": "Cowen",
+        "politicalParty": "Fianna Fáil",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Luke",
+        "lastName": "Ming Flanagan",
+        "politicalParty": "Independent",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Stephen",
+        "lastName": "Garland",
+        "politicalParty": "Independent",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Michelle",
+        "lastName": "Gildernew",
+        "politicalParty": "Sinn Féin",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Rory",
+        "lastName": "Hearne",
+        "politicalParty": "Social Democrats",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Charlotte",
+        "lastName": "Keenan",
+        "politicalParty": "Independent",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Herman",
+        "lastName": "Kelly",
+        "politicalParty": "Irish Freedom Party",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Fergal",
+        "lastName": "Landy",
+        "politicalParty": "Labour Party",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Chris",
+        "lastName": "MacManus",
+        "politicalParty": "Sinn Féin",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Margaret",
+        "lastName": "Maguire",
+        "politicalParty": "Ireland First",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Saoirse",
+        "lastName": "McHugh",
+        "politicalParty": "Independent",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Ciaran",
+        "lastName": "Mullooly",
+        "politicalParty": "Independent Ireland",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Brian",
+        "lastName": "O'Boyle",
+        "politicalParty": "People Before Profit",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Pauline",
+        "lastName": "O'Reilly",
+        "politicalParty": "Green Party",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Daniel",
+        "lastName": "Pacock",
+        "politicalParty": "Independent",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "James",
+        "lastName": "Reynolds",
+        "politicalParty": "The National Party",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Michelle",
+        "lastName": "Smith",
+        "politicalParty": "Independent",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Peadar",
+        "lastName": "Toibín",
+        "politicalParty": "Aontú",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Maria",
+        "lastName": "Walsh",
+        "politicalParty": "Fine Gael",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Gerry",
+        "lastName": "Waters",
+        "politicalParty": "Independent",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Waters",
+        "politicalParty": "Independent",
+        "regionRep": "Midlands-North-West",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Derek",
+        "lastName": "Blighe",
+        "politicalParty": "Ireland First",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Lorna",
+        "lastName": "Bogue",
+        "politicalParty": "An Rabharta Glas-Green Left",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Graham",
+        "lastName": "de Barra",
+        "politicalParty": "Independent",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Susan",
+        "lastName": "Doyle",
+        "politicalParty": "Social Democrats",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Christopher",
+        "lastName": "VS Doyle",
+        "politicalParty": "Independent",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Mary",
+        "lastName": "Fitzgibbon",
+        "politicalParty": "Independent",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Kathleen",
+        "lastName": "Funchion",
+        "politicalParty": "Sinn Féin",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Paul",
+        "lastName": "Gavan",
+        "politicalParty": "Sinn Féin",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Niamh",
+        "lastName": "Hourigan",
+        "politicalParty": "Labour Party",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Billy",
+        "lastName": "Kelleher",
+        "politicalParty": "Fianna Fáil",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Seán",
+        "lastName": "Kelly",
+        "politicalParty": "Fine Gael",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Ross",
+        "lastName": "Lahive",
+        "politicalParty": "The Irish People",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "Leahy",
+        "politicalParty": "Irish Freedom Party",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Michael",
+        "lastName": "McNamara",
+        "politicalParty": "Independent",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Una",
+        "lastName": "McGurk",
+        "politicalParty": "Independent",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Mullins",
+        "politicalParty": "Fine Gael",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Patrick",
+        "lastName": "Murphy",
+        "politicalParty": "Aontú",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Cyntia ",
+        "lastName": "Ní Mhurchú",
+        "politicalParty": "Fianna Fáil",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Grace",
+        "lastName": "O'Sullivan",
+        "politicalParty": "Green Party",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Ciaran",
+        "lastName": "O'Riordan",
+        "politicalParty": "Independent",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Eddie",
+        "lastName": "Punch",
+        "politicalParty": "Independent Ireland",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Cian",
+        "lastName": "Prendiville",
+        "politicalParty": "People Before Profit",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    },
+    {
+        "firstName": "Mick",
+        "lastName": "Wallace",
+        "politicalParty": "Independent",
+        "regionRep": "South",
+        "votesRec": 0,
+        "finalVerdict": "Not Elected"
+    }
+]
