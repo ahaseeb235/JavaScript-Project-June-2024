@@ -1,36 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <title>European Elections for Ireland, 2024</title>
+    <title>Ireland EU Elections, 2024</title>
+    <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <script src="listofCandidatesScript.js"></script>
+     <!-- <script src="listofCandidatesScript.js"></script> -->
 </head>
-<body>
-    <div>
-        <h1>This is a test</h1>
-    </div>
-    
 
-    <div class="index" id="alphabetIndex"></div>
-    <div id="content">
-        <table id="candidatesTable">
-            <thead>
-                <tr>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Political Party</th>
-                    <th>Region Rep</th>
-                    <th>Votes Rec</th>
-                    <th>Final Verdict</th>
-                </tr>
-            </thead>
-            <tbody id="candidatesBody"></tbody>
-        </table>
+<body>
+
+
+    <!-- navbar -->
+    <header>
+        <nav class="nav">
+            <a href="index.html" class="logo">Ireland EU<br> Elections 2024</a>
+
+
+            <div class="burger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+
+            <div class="navlink hide">
+                <a href="index.html">Home</a>
+                <a href="#">Electoral Constituencies</a>
+                <a href="winnersLoosers.html">Winners & Loosers</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- slider  -->
+
+    <div class="slider">
+        <div class="slide current">
+            <div class="content">
+                <h2>Having Some Craic While At It</h2>
+                <p>A count staff member's T-shirt during counting at the Cork centre. Photograph: Jonathan Brady/PA Wire</p>
+                <i>Source: <a href="https://www.irishtimes.com/politics/2024/06/14/in-pictures-the-story-of-the-european-and-local-election-counts/" target="_blank">Irish Times</a> </i>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="content">
+                <h2>Taoiseach joins in the celecbrations</h2>
+                <p>Taoiseach Simon Harris TD with Fine Gael candidate Regina Doherty after she was elected MEP for the Dublin constituency. Photograph: Gareth Chaney/PA Wire</p>
+                <i>Source: <a href="https://www.irishtimes.com/politics/2024/06/14/in-pictures-the-story-of-the-european-and-local-election-counts/" target="_blank">Irish Times</a> </i>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="content">
+                <h2>Independents also had their fair share</h2>
+                <p>Independent Ireland's Ciarán Mullooly (centre) celebrates after being elected as an MEP for the Midlands-North-West constituency. Photograph: Conor McKeown/PA Wire</p>
+                <i>Source: <a href="https://www.irishtimes.com/politics/2024/06/14/in-pictures-the-story-of-the-european-and-local-election-counts/" target="_blank">Irish Times</a> </i>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="content">
+                <h2>There were some suprises</h2>
+                <p>Sinn Féin's Lynn Boylan following her election as an MEP for the Dublin constituency. Photograph: Gareth Chaney/PA Wire</p>
+                <i>Source: <a href="https://www.irishtimes.com/politics/2024/06/14/in-pictures-the-story-of-the-european-and-local-election-counts/" target="_blank">Irish Times</a> </i>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="content">
+                <h2>Ladies did well too</h2>
+                <p>Taoiseach Simon Harris (centre) with Fine Gael's Nina Carberry (centre left) and Maria Walsh (centre right) in Castlebar for the Midlands-North-West constituency. Photograph: Conor McKeown/PA Wire</p>
+                <i>Source: <a href="https://www.irishtimes.com/politics/2024/06/14/in-pictures-the-story-of-the-european-and-local-election-counts/" target="_blank">Irish Times</a> </i>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="content">
+                <h2>And there were some loosers, of course!</h2>
+                <p>Consolations following the final count at Nemo Rangers GAA club in Cork. Photograph: Brian Lawless/PA Wire.</p>
+                <i>Source: <a href="https://www.irishtimes.com/politics/2024/06/14/in-pictures-the-story-of-the-european-and-local-election-counts/" target="_blank">Irish Times</a> </i>
+            </div>
+        </div>
     </div>
-    
+
+    <div class="buttons">
+        <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+        <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+
+    <!-- animated counters  -->
+    <section class="anim-numbers">
+            <div class="container">
+                <h1 class="sectiontitle">Ireland EU Elections 2024 in numbers</h1>
+            </div>
+            <div class="container">
+                <div class="counter-box">
+                    <span class="counter" id="seats">0</span>
+                    <div class="label">SEATS</div>
+                </div>
+                <div class="counter-box">
+                    <span class="counter" id="constituencies">0/3</span>
+                    <div class="label">CONSTITUENCIES</div>
+                </div>
+                <div class="counter-box">
+                    <span class="turnout" id="turnout">0%</span>
+                    <div class="label">TURNOUT (Approx.)</div>
+                </div>
+            </div>
+    </section>
+
+    <!-- contact form -->
+    <section class="contact-form">
+        <div class="col-left">
+            <h2>Write to us</h2>
+            <p>Write to us - in any of the <a class="official-lang" href="https://european-union.europa.eu/principles-countries-history/languages_en" target="_blank">official EU languages</a>. Please be as detailed as possible and be sure to include your correct contact details.</p>
+            <br>
+            <p>You will usually receive an answer within 3 working days (more complex enquiries may take longer).</p>
+        </div>
+        <div class="col-right">
+            <form id="contactForm" onsubmit="return validateForm()">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <span class="error" id="nameError"></span>
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+                <span class="error" id="subjectError"></span>
+                
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone">
+                <span class="error" id="phoneError"></span>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <span class="error" id="emailError"></span>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <span class="error" id="messageError"></span>
+                
+                <button type="submit">Submit</button>
+            </form>
+
+        </div>
+    </section>
+
+
+    <footer class="copyright">
+            <p>Design by <a href="mailto:ahaseeb235@gmail.com">Abdul Haseeb</a> for Assessment. No Copyright &copy; 2024</p>
+    </footer>
+
 </body>
+<script src="script.js" defer></script>
+
 </html>
