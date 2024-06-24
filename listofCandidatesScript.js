@@ -7,6 +7,7 @@ fetch('finalListOfCandidates2024.json')
         populateAlphabetFilter();
         populateRegionFilter();
         populatePoliticalPartyFilter();
+        populatefinalVerdictFilter();
         displayCandidates(candidates);
     });
 
@@ -48,6 +49,19 @@ function populatePoliticalPartyFilter() {
     });
 }
 
+// populate final verdict
+function populatefinalVerdictFilter() {
+    const finalVerdicts = [...new Set(candidates.map(candidate => candidate.finalVerdict))];
+    
+    finalVerdicts.forEach(finalVerdict => {
+        const option = document.createElement('option');
+        option.value = finalVerdict;
+        option.textContent = finalVerdict;
+        finalVerdictFilter.appendChild(option);
+    });
+
+}
+
 
 
 
@@ -86,7 +100,7 @@ function filterByAlphabet(char) {
     applyFilters(filteredCandidates);
 }
 
-// Apply gender, region, and final verdict filters
+// Apply gender, region, political party and final verdict filters
 function applyFilters(filteredCandidates = candidates) {
     const genderFilter = document.getElementById('genderFilter').value;
     const regionFilter = document.getElementById('regionFilter').value;
@@ -106,7 +120,7 @@ function applyFilters(filteredCandidates = candidates) {
     }
 
     if (politicalPartyFilter) {
-        filteredCandidates = filteredCandidates.filter(candidate => candidate.politcalParty === politicalPartyFilter);
+        filteredCandidates = filteredCandidates.filter(candidate => candidate.politicalParty === politicalPartyFilter);
     }
 
     displayCandidates(filteredCandidates);
