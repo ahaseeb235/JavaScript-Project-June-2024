@@ -38,26 +38,64 @@
         </nav>
     </header>
     
-
-    <!-- list of candidates -->
     <section class="alphabetical-list">
-        <h2>this is the title</h2>
-        <div class="index" id="alphabetIndex"></div>
-        <div id="content">
-            <table id="candidatesTable">
-                <thead>
-                    <tr>
-                        <th>Full Name</th>
-                        <th>Political Party</th>
-                        <th>Region Rep</th>
-                        <th>Final Verdict</th>
-                        <th>Gender</th>
-                    </tr>
-                </thead>
-                <tbody id="candidatesBody"></tbody>
-            </table>
+        <!-- list of candidates -->
+        <h2>List of Candidates </h2>
+        <p>The following is the list of candidates, not organised alphabetically. Click on an alphabet to view the names in alphabetical index. Winners are highlighted</p>
+        <hr>
+
+        
+        <!-- Alphabet Filter -->
+        <div id="alphabetFilter">
+            <button onclick="filterByAlphabet('All')">All</button>
+            <!-- JavaScript will dynamically generate A-Z buttons here -->
         </div>
+
+        <!-- Gender and Region Filters -->
+        <div id="filters">
+            <select id="genderFilter" onchange="applyFilters()">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+
+            <select id="politicalPartyFilter" onchange="applyFilters()">
+                <option value="">Select Political Party</option>
+                
+            </select>
+            
+            <select id="regionFilter" onchange="applyFilters()">
+                <option value="">Select Constituency</option>
+            
+                <!-- JavaScript will dynamically populate regions here -->
+            </select>
+
+            <select id="finalVerdictFilter" onchange="applyFilters()">
+                <option value="">Select Final Verdict</option>
+                <option value="elected">Elected</option>
+                <option value="notElected">Not Elected</option>
+            </select>
+        </div>
+
+        <!-- Candidate Table -->
+        <table id="candidateTable">
+            <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Political Party</th>
+                    <th>Constituency</th>
+                    <th>Final Verdict</th>
+                    <th>Gender</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
     </section>
+
+    
+    <footer class="copyright">
+        <p>Design by <a href="mailto:ahaseeb235@gmail.com">Abdul Haseeb</a> for Assessment. No Copyright &copy; 2024</p>
+</footer>
     
 </body>
 <!-- <script src="script.js" defer></script> -->
