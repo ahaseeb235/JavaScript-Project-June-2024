@@ -9,13 +9,12 @@ github-repo link: [https://github.com/ahaseeb235/all_about_hurling](https://gith
 ## Project Goal:
 The goal of the project is to create a website with the following features: 
 * Responsive website using HTML, CSS and JAVASSCRIPT
-* Multiple Pages linked to .css file
-* Create table [on about page]
-* Create Form [on Quiz page]
-* Hyperlink to email [in the footer]
-* External Hyperling [several links on home page and about page]
-* video section [on home page]
-* image gallery section
+* CSS styling
+* Responsive Navbar with burger menu
+* Slider Images with text/subtitles
+* Animated numbers
+* Contact form (form Validation)
+* List and table using API with Filter features
 
 
 
