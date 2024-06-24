@@ -41,7 +41,11 @@
     <section class="alphabetical-list">
         <!-- list of candidates -->
         <h2>List of Candidates </h2>
-        <p>The following is the list of candidates, not organised alphabetically. Click on an alphabet to view the names in alphabetical index. Winners are highlighted</p>
+        <p>The following is the list of candidates, not organised alphabetically. Click on an alphabet to view the names in alphabetical index. Winners are highlighted in light green.</p>
+        <br>
+        <p>Filter buttons can be used to filter by Gender, Political Party, Constituency and/or Final Verdict (Elected or not elected)</p>
+        <br>
+        <caption>Source: I created the based on election results and converted the excel file to json.</caption>
         <hr>
 
         
@@ -72,8 +76,7 @@
 
             <select id="finalVerdictFilter" onchange="applyFilters()">
                 <option value="">Select Final Verdict</option>
-                <option value="elected">Elected</option>
-                <option value="notElected">Not Elected</option>
+                
             </select>
         </div>
 
