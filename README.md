@@ -16,48 +16,58 @@ The goal of the project is to create a website with the following features:
 * Contact form (form Validation)
 * List and table using API with Filter features
 
-
+## Summary
+This project is built using HTML, CSS and Javascript technologies. The webpages contain information on Ireland EU elections 2024. Data was collated after results on 7 June, 2024. The data is used for demonstration purposes. 
 
 ## Sitemap
 HOME 
- - About hurling
- - Quiz
+ - Winners and Loosers
+ - Electoral Constituencies (This was not deployed as I could not get to it in time before the submission deadline.)
 
-"Home" is the main page. "About Hurling" and "Quiz" pages are linked via the Home page. The footer contains Sitemap. 
+"Home" is the main page. "Winners & Loosers" is linked via the Home page. The footer contain contains some basic text. 
 
 ## Project Mockups
 Several sketchs and mockups were made. Here is an image of the initial mockup
-![alt text](./images/mockup1.png)
-
-## Logo:
-Logo was created using canvas.com in PNG format and converted to SVG format. I chose SVG format to be able to scale the logo, control color fill and background color. The logo can also be used as an icon. The filter was adapte from Barrett Sonntag's "CSS filter generator to convert from black to target hex color" Codepen Notebook. 
+![image](https://github.com/ahaseeb235/JavaScript-Project-June-2024/assets/42618462/541d3907-f9f3-40d2-a3a8-65df536ec3b4)
 
 
+## Navbar:
+Responsive navbar created. When accessed on mobile, the menu items are replaced by burger menu. This was achieved using css styling and javascript
+
+## Image slider
+The image slider was built with a combination of html, css and controlled by javascript. 
+
+## Animated numbers
+Upon page load, the numbers would animate from 0 to the set number. This was achieved using javascript. 
+![image](https://github.com/ahaseeb235/JavaScript-Project-June-2024/assets/42618462/f6b2a89a-26ce-4670-8d7e-9efd8e1cddf3)
+
+## Form Validation
+Contact form was created using html, css and javascript. The validation was built in using javascript. An error message appears when a required field is missed. 
+![image](https://github.com/ahaseeb235/JavaScript-Project-June-2024/assets/42618462/25287ef9-9765-4c0f-b03f-f08de1363d96)
+
+In addition, there are more validations built in to validate email and phone number
+![image](https://github.com/ahaseeb235/JavaScript-Project-June-2024/assets/42618462/bdf74d2e-401f-40ea-8941-c6a5d1260fed)
+
+![image](https://github.com/ahaseeb235/JavaScript-Project-June-2024/assets/42618462/734181d9-82f1-4a87-b308-ad8ffaaf8feb)
 
 
-## GAA Teams in Ireland 
-Source: https://en.wikipedia.org/w/index.php?title=National_Hurling_League&action=edit&section=19
+## Lists and Filter views
+List of Candidates is generated via API (fetch method) from JSON file. Javascript was used to generate filter options. The list can be filtered by Gender, Political Party, Constituencies and Final Verdit (elected or not elected).
+
+In addition the list can be filtered by alphabetical index. The "Elected" candidates are also highlighted in lightgreen. 
+
+![image](https://github.com/ahaseeb235/JavaScript-Project-June-2024/assets/42618462/cf8792c3-61a9-4fdc-b3eb-c3bd255cd1ea)
+
+## Resources
+https://results.elections.europa.eu/en/national-results/ireland/2024-2029/![image](https://github.com/ahaseeb235/JavaScript-Project-June-2024/assets/42618462/7ad34bec-82eb-4d6d-bf05-6d75a67aea01)
+
+https://www.rte.ie/news/elections-2024/results/#/european/national
+
+Images for sliders 
+https://dev.to/huericnan/creating-an-image-slider-with-html-css-and-javascript-4jl6![image](https://github.com/ahaseeb235/JavaScript-Project-June-2024/assets/42618462/2bceea8e-2adf-4a2d-bf5f-0035a64e7973)
+
+Form validation
+https://dev.to/javascriptacademy/form-validation-using-javascript-34je![image](https://github.com/ahaseeb235/JavaScript-Project-June-2024/assets/42618462/d67f5782-a228-4b08-aa8a-ef48e7a3cce4)
 
 
-
-## Some initial notes 
-Possible Working titles:
--	All About Hurling
--	Learning Hurling
-
-
-
-
-
-Hex codes
-#0f96b3 – turquoise 
-#156cba– blue
-#0db141- green
-#015264– font colour
-#ffa600 – for links upon hover
-
-
-Call out image source - https://www.traditionalsports.org/images/sports/europe/hurling/gallery/Hurling.jpg
-
-Icon source: https://icons8.com/license
 
